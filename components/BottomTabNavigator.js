@@ -20,7 +20,7 @@ export default class BottomTabNavigator extends Component {
 
               if (route.name === "Transação") {
                 iconName = "book";
-              } else if (route.name === "Pesquisar") {
+              } else if (route.name === "Pesquisa") {
                 iconName = "search";
               }
 
@@ -61,7 +61,7 @@ export default class BottomTabNavigator extends Component {
           }}
         >
           <Tab.Screen name="Transação" component={TransactionScreen} />
-          <Tab.Screen name="Pesquisar" component={SearchScreen} />
+          <Tab.Screen name="Pesquisa" component={SearchScreen} />
         </Tab.Navigator>
       </NavigationContainer>
     );
